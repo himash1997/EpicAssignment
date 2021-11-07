@@ -34,6 +34,7 @@
 		F3AED99327378D5C001088AC /* CustomTabBarVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AED99227378D5C001088AC /* CustomTabBarVM.swift */; };
 		F3AED99727379C6F001088AC /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = F3AED99627379C6F001088AC /* SDWebImageSwiftUI */; };
 		F3AED99B2737B93B001088AC /* CustomProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AED99A2737B93B001088AC /* CustomProgressViewStyle.swift */; };
+		F3AED9AB2737FD0B001088AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3AED9AA2737FD0B001088AC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		F3AED98E27378CEF001088AC /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		F3AED99227378D5C001088AC /* CustomTabBarVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarVM.swift; sourceTree = "<group>"; };
 		F3AED99A2737B93B001088AC /* CustomProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressViewStyle.swift; sourceTree = "<group>"; };
+		F3AED9AA2737FD0B001088AC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		F3AED825273567B7001088AC /* EpicTest */ = {
 			isa = PBXGroup;
 			children = (
+				F3AED9A92737FCF7001088AC /* LaunchScreen */,
 				F3AED98C27378CC3001088AC /* CustomViews */,
 				F3AED98727378855001088AC /* Models */,
 				F3AED96D2737857D001088AC /* Network */,
@@ -265,6 +268,14 @@
 			path = ProgressView;
 			sourceTree = "<group>";
 		};
+		F3AED9A92737FCF7001088AC /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F3AED9AA2737FD0B001088AC /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -328,6 +339,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3AED9AB2737FD0B001088AC /* LaunchScreen.storyboard in Resources */,
 				F3AED85427356FD9001088AC /* Oswald-Medium.ttf in Resources */,
 				F3AED85627356FD9001088AC /* Oswald-Bold.ttf in Resources */,
 				F3AED85527356FD9001088AC /* Oswald-SemiBold.ttf in Resources */,
