@@ -15,10 +15,9 @@ extension CastEndPoint: RequestBuilder {
     var urlRequest: URLRequest {
         switch self {
         case .castList(let limit):
-            guard let url = URL(string: "https://www.breakingbadapi.com/api/characters?limit=5")
+            guard let url = URL(string: "https://www.breakingbadapi.com/api/characters?limit=\(limit)")
             else {preconditionFailure("Invalid URL format")}
-            var request = URLRequest(url: url)
-            request.setValue("\(limit)", forHTTPHeaderField: "limit")
+            let request = URLRequest(url: url)
             return request
             
         }
